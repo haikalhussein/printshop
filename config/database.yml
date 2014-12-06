@@ -50,5 +50,3 @@ test:
 production:
   <<: *default
   database: printshop_production
-  username: printshop
-  password: <%= ENV['PRINTSHOP_DATABASE_PASSWORD'] %>

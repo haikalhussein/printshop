@@ -26,6 +26,36 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 gem 'spring',        group: :development
 
+gem 'capistrano', '~> 3.2.1'
+gem 'capistrano-rvm'
+gem 'capistrano-bundler'
+gem 'capistrano-rails'
+
+gem "therubyracer"
+gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
+gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git', :branch => 'bootstrap3'
+gem 'font-awesome-rails'
+gem 'formtastic'
+gem 'formtastic-bootstrap'
+
+
+gem "cocoon"
+gem 'rolify'
+
+gem 'ransack'
+gem 'will_paginate'
+
+gem "devise"
+gem "cancancan"
+
+gem 'carrierwave'
+gem 'mini_magick'
+gem 'roo'
+
+gem 'bullet', group: :development
+
+gem 'aasm'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
